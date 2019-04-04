@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{281D201D-6E0A-4D20-9F01-62F6D6627B7F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Zeroit.Framework.FormThemes.UIThemes</RootNamespace>
+    <AssemblyName>Zeroit.Framework.FormThemes.UIThemes</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Debug\Zeroit.Framework.FormThemes.UIThemes.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <DocumentationFile>bin\Release\Zeroit.Framework.FormThemes.UIThemes.xml</DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>ZeroitStrongKeys.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ThematicForms\FormEditors\Utilities.cs" />
+    <Compile Include="ThematicForms\FormEditors\FormEditorUITypeEditor.cs" />
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\011-20\Bloody.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\011-20\BlueAndWhite.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\011-20\Booster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\011-20\Blue.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\011-20\Border.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\011-20\Bullion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\021-30\ButterScotch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\021-30\CarbonFibre.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\021-30\Chrome.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\021-30\Clarity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\021-30\Classic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\021-30\clsNeoBux.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\021-30\CocaCola.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\021-30\Complex.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\021-30\Crystal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\021-30\Cypher.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\031-40\DarkMatter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\031-40\DarkMatterAlt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\031-40\Design.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\031-40\Destiny.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\031-40\Deumos.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\031-40\Doom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\031-40\Drone.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\031-40\Earn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\031-40\Effectual.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\031-40\Electric.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\041-50\Electrified.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\041-50\Elegant.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\041-50\Element.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\041-50\Empire.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\041-50\Empress.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\041-50\ETheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\041-50\Evolve.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\041-50\Excision.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\041-50\Exotic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\041-50\Facebook.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\051-60\Festus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\051-60\FlatUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\051-60\Flow.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\051-60\Frog.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\051-60\Fusion.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\051-60\Future.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\051-60\GTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\051-60\GameBooster.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\051-60\Genuine.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\051-60\Ghostv2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\061-70\Ghost.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\061-70\Gray.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\061-70\Green.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\061-70\Hacker.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\061-70\Hero.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\061-70\Hex.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\061-70\HF.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\061-70\Hura.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\061-70\iBlack.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\061-70\Influence.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\071-80\Influx.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\071-80\InnerDarkness.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\071-80\Insomia.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\071-80\Intel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\071-80\JTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\071-80\Knight.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\071-80\Light.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\071-80\Login.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\071-80\Loyal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\071-80\Meph.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\081-90\Metal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\081-90\MetroUI.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\081-90\MetroDisk.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\081-90\Modern.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\081-90\MPGH.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\081-90\Mumtz.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\081-90\Mystic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\081-90\NeoBux.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\081-90\Nameless.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\081-90\NetSeal.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\091-100\NewTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\091-100\NYX.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\091-100\Orains.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\091-100\Origin.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\091-100\PaladinV2.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\091-100\Patrick.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\091-100\Perplex.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\091-100\Positron.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\091-100\Prime.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\091-100\Purity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\101-110\Qube.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\101-110\Reactor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\101-110\Recon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\101-110\Redwagon.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\101-110\Redemption.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\101-110\Rockstar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\101-110\Sasi.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\101-110\Secure.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\101-110\Sharp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\101-110\Simpla.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\111-120\SimplyGray.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\111-120\Simplistic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\111-120\Situation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\111-120\SkyBase.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\111-120\Skype.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\111-120\SLC.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\111-120\Somnium.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\111-120\SpicyLips.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\111-120\Steam.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\111-120\SteamAlt.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\121-130\Storm.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\121-130\Studio.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\121-130\Subspace.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\121-130\Sugar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\121-130\TeamViewer.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\121-130\Tech.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\121-130\Teen.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\121-130\Tennis.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\121-130\TheBlack.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\121-130\Thief.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\131-140\Twitch.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\131-140\Ubuntu.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\131-140\Uclear.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\131-140\Uplay.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\131-140\VTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\131-140\Visceral.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\131-140\Vitality.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\131-140\Vs.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\131-140\White.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\131-140\Winter.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\141-150\Xbox.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\141-150\Xtreme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\141-150\xVisual.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\141-150\Youtube.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\141-150\Zeus.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\141-150\Alpha.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\141-150\Resizable.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\PaintHook.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\CreateHandle.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\OnCreateControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\ColorHook.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\OnMouseMove.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\OnMouseUp.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\OnMouseDown.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\OnMouseClick.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\OnCreation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\OnResize.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\8ball.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\Adobe.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\AdvancedSystem.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\Advantium.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\Angel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\Anom.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\Aryan.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\Atrocity.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\Avatar.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\AVG.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\000-10\BasicCode.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\011-20\BetaBlue.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\011-20\Beyond.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\011-20\Bionic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\011-20\BlackShades.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\ControlBoxFunctionality.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\Properties.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\Utilities\Enumeration.cs" />
+    <Compile Include="ThematicForms\ThematicWithEditor\Editors\Thematic - WithEditor.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Editors\Thematic.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Editors\ThematicVB.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Editors\Theme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\141-150\BitDefender Theme.cs" />
+    <Compile Include="ThematicForms\ThematicWithEditor\Themes\141-150\Blue and White Theme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\ThematicWithEditor\Helpers\ShadowActivation.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\Utilities\Utilities.cs" />
+    <Compile Include="ThematicForms\FormEditors\FormEditorsDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\FormEditors\FormEditorsDialog.Designer.cs">
+      <DependentUpon>FormEditorsDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ThematicForms\FormEditors\FormInput.cs" />
+    <Compile Include="ThematicForms\_Helper\DropShadow - Performance Issues\DropShadow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\_Helper\MainFormTheme.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ThematicForms\_Helper\Native\DwmNative.cs" />
+    <Compile Include="ThematicForms\_Helper\ShadowForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ThematicForms\FormEditors\FormEditorsDialog.resx">
+      <DependentUpon>FormEditorsDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Zeroit.Framework.FormThemes.UIThemes.nuspec" />
+    <None Include="ZeroitStrongKeys.snk" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\downRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\upRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DownLeft_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DownRight_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpLeft_small.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UpRight_small.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
